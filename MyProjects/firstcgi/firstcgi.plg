@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: firstcgi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.USE\AppData\Local\Temp\RSPEAE7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/firstcgi.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\Program Files\MSDev98\MyProjects\firstcgi\firstcgi.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.USE\AppData\Local\Temp\RSPEAE7.tmp" 
+Creating temporary file "C:\Users\ADMINI~1.USE\AppData\Local\Temp\RSPEAE8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/firstcgi.pdb" /debug /machine:I386 /out:"C:\Apache22\cgi-bin/firstcgi.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\firstcgi.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1.USE\AppData\Local\Temp\RSPEAE8.tmp"
+<h3>Output Window</h3>
+Compiling...
+firstcgi.cpp
+D:\Program Files\MSDev98\MyProjects\firstcgi\firstcgi.cpp(22) : warning C4101: 'age' : unreferenced local variable
+D:\Program Files\MSDev98\MyProjects\firstcgi\firstcgi.cpp(21) : warning C4101: 'name' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/firstcgi.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\firstcgi.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+firstcgi.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
