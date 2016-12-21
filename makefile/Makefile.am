@@ -1,0 +1,3 @@
+AUTOMARK_OPTIONS=foreign
+noinst_PROGRAMS=make
+make_SOURCES=hellomake.c
